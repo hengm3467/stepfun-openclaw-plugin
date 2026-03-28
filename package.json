@@ -1,0 +1,35 @@
+{
+  "name": "stepfun",
+  "version": "0.1.0",
+  "description": "Example external StepFun provider plugin for OpenClaw",
+  "files": [
+    "index.ts",
+    "provider-catalog.ts",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "openclaw": "^2026.3.24"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.3.24"
+  },
+  "peerDependenciesMeta": {
+    "openclaw": {
+      "optional": true
+    }
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ],
+    "providers": [
+      "stepfun",
+      "stepfun-plan"
+    ],
+    "install": {
+      "minHostVersion": ">=2026.3.24"
+    }
+  }
+}
