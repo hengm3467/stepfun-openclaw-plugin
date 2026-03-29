@@ -1,7 +1,8 @@
 {
-  "name": "stepfun",
+  "name": "@hengm3467/stepfun-openclaw-plugin",
   "version": "0.1.0",
-  "description": "Example external StepFun provider plugin for OpenClaw",
+  "displayName": "StepFun OpenClaw Plugin",
+  "description": "StepFun provider plugin for OpenClaw (prototype)",
   "files": [
     "index.ts",
     "provider-catalog.ts",
@@ -19,6 +20,10 @@
     "openclaw": {
       "optional": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hengm3467/stepfun-openclaw-plugin.git"
   },
   "openclaw": {
     "extensions": [
