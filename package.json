@@ -33,6 +33,9 @@
       "stepfun",
       "stepfun-plan"
     ],
+    "compat": {
+      "pluginApi": ">=2026.3.24"
+    },
     "install": {
       "minHostVersion": ">=2026.3.24"
     }
