@@ -1,5 +1,5 @@
 {
-  "id": "stepfun",
+  "id": "stepfun-2",
   "providers": ["stepfun", "stepfun-plan"],
   "providerAuthEnvVars": {
     "stepfun": ["STEPFUN_API_KEY"],

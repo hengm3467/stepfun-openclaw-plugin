@@ -41,7 +41,7 @@ variables.
 OPENCLAW_STATE_DIR="$tmp" \
 OPENCLAW_CONFIG_PATH="$tmp/openclaw.json" \
 STEPFUN_API_KEY=test-key \
-openclaw plugins inspect stepfun --json
+openclaw plugins inspect stepfun-2 --json
 ```
 
 Check that the inspect output includes both provider ids:
